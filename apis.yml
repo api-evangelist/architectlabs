@@ -1,8 +1,25 @@
 aid: architectlabs
-name: Architectlabs
-description: Architectlabs is a company surfaced as a portfolio company of kindred-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/architectlabs.png
+name: Architect Labs
+description: Architect Labs is an AI lab building an AI system that explores, designs, and provably
+  verifies custom silicon for the world's most demanding AI and compute workloads. The company is
+  developing a platform that automates the chip-design and verification workflow, aiming to let AI
+  model developers, robotics startups, and neocloud operators generate and verify custom chips
+  without deep hardware-engineering expertise. Architect Labs raised a $24M seed round led by
+  Kindred Ventures, with participation from investors including Aravind Srinivas and Lukasz Kaiser,
+  and is scheduled to appear at DAC 2026. As of this profile the company publishes a marketing site
+  (about, blog, careers) but no public API, developer documentation, or SDKs.
 url: https://raw.githubusercontent.com/api-evangelist/architectlabs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Chip Design
+- Semiconductors
+- Artificial Intelligence
+- Electronic Design Automation
+- Hardware Verification
+- Silicon
+- Machine Learning
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +48,10 @@ maintainers:
 common:
 - type: Website
   url: https://architectlabs.com/
+- type: Blog
+  url: https://architectlabs.com/blog
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
